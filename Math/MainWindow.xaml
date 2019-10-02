@@ -1,0 +1,18 @@
+﻿<Window x:Class="Math.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Background="AliceBlue"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="58,29,0,0" TextWrapping="Wrap" Text="Input N" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txbname" HorizontalAlignment="Left" Height="23" Margin="211,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223" FontSize="16"/>
+        <RadioButton x:Name="tong" Content="Total" HorizontalAlignment="Left" Margin="58,90,0,0" VerticalAlignment="Top" FontSize="16" />
+        <RadioButton x:Name="tongle" Content="Odd Sum" HorizontalAlignment="Left" Margin="58,130,0,0" VerticalAlignment="Top" FontSize="16" />
+        <RadioButton x:Name="tongchan" Content="Total Even" HorizontalAlignment="Left" Margin="58,172,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txbtong" HorizontalAlignment="Left" Height="23" Margin="211,87,0,0" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Width="223" FontSize="16" />
+        <TextBox x:Name="txbtongle" HorizontalAlignment="Left" Height="23" Margin="211,130,0,0" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Width="223" FontSize="16" />
+        <TextBox x:Name="txbtongchan" HorizontalAlignment="Left" Height="23" Margin="211,172,0,0" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Width="223" FontSize="16" />
+        <Button x:Name="tinh" Content="Count" HorizontalAlignment="Left" Margin="73,266,0,0" VerticalAlignment="Top" Width="75" FontSize="16" Click="tinh_Click"/>
+        <Button x:Name="huy" Content="Quit" HorizontalAlignment="Left" Margin="258,266,0,0" VerticalAlignment="Top" Width="75" FontSize="16" Click="huy_Click"/>
+    </Grid>
+</Window>
